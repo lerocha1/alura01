@@ -14,6 +14,7 @@ def jogar():
     while (not enforcou and not acertou):
 
         chute = input("Qual letra? ")
+        
         chute = chute.strip()
 
         index = 0
